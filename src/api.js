@@ -1,7 +1,7 @@
 import axios from "axios";
 
-
-const baseURL = 'http://127.0.0.1:8000/'
+const baseURL = 'https://herbquest.onrender.com'
+//const baseURL = 'http://127.0.0.1:8000/'
 const API = axios.create({ baseURL });
 
 API.interceptors.request.use(
