@@ -24,9 +24,7 @@ const refreshToken = async () => {
             withCredentials: true,
             headers: {
                 'ngrok-skip-browser-warning':true
-            },
-            'ngrok-skip-browser-warning':true
-
+            }
         });
         return response.data
     } catch (error) {
