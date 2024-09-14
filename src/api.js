@@ -19,7 +19,7 @@ API.interceptors.request.use(
 
 const refreshToken = async () => {
     try {
-        const response = await axios.get(baseURL + 'token', { withCredentials: true });
+        const response = await API.get('token');
         return response.data
     } catch (error) {
         console.error('Failed to refresh token', error);
