@@ -19,7 +19,7 @@ API.interceptors.request.use(
 
 const refreshToken = async () => {
     try {
-        const response = await API.get('token');
+        const response = await axios.get(baseURL + 'token', { withCredentials: true, 'ngrok-skip-browser-warning': true });
         return response.data
     } catch (error) {
         console.error('Failed to refresh token', error);
