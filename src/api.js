@@ -22,7 +22,7 @@ const refreshToken = async () => {
         const response = await axios.get(baseURL + 'token', {
             withCredentials: true,
             headers: {
-                'ngrok-skip-browser-warning': 'true'
+                'ngrok-skip-browser-warning': '69420'
             }
         });
         return response.data
