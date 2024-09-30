@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //const baseURL = 'https://herbquest.onrender.com/'
-const baseURL = 'https://76d0-2402-4000-b1c3-7fc1-8dde-d9aa-3e71-d6c5.ngrok-free.app/'
+const baseURL = 'https://f890-2402-4000-2200-51c9-5953-7c1e-a9e8-e52d.ngrok-free.app/'
 //const baseURL = 'http://127.0.0.1:8000/'
 const API = axios.create({ baseURL });
 
